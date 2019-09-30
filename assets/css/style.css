@@ -1,9 +1,56 @@
-.edsheeran-brand {
+/*----------NAVBAR------------*/
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .edsheeran-brand {
     color: red;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .nav-link {
+    color: black;
+    font-family: fantasy;
+    font-size: 15px;
+
+}
+
+/*----------TITLE------------*/
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-10%, -10%);
+}
+
+.container span {
+    font-family: fantasy;
+    text-transform: uppercase;
+    display: block;
+
 }
 
 .title1 {
-    text-align: center;
     padding: 0;
-    font-family: sans-serif;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/*---heading---*/
+
+.about {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transform: translate(0%, 500%);
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.image1 {
+    padding: 0;
+    margin: 0;
 }
