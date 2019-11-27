@@ -6,10 +6,6 @@ body {
 
 /*----------NAVBAR------------*/
 
-.navbar.navbar-expand-lg.navbar-light.bg-light {
-    
-}
-
 .navbar.navbar-expand-lg.navbar-light.bg-light .edsheeran-brand {
     color: #FFA351;
     font-family: monospace;
@@ -21,118 +17,12 @@ body {
     color: #FFA351;
     font-family: monospace;
     font-size: 15px;
-
-
-
 }
 
-/*----------TITLE------------*/
+/*----------CAROUSEL------------*/
 
-.homepage {
-    color: #FFA351;
-    position: relative;
-    left: 1em;
-    margin: 70px;
-    text-align: center;
-    font-family: monospace;
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: 2px;
-    
+.carousel-caption {
+   color: #FFA351;
+   font-size: large;
+   font-family: monospace;
 }
-
-/*----------IMAGES------------*/
-
-.concert {
-    position: relative;
-    left: 60px;
-}
-
-.concert::after {
-    content: "Performence at Glastonbury";
-    color: #fff;
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: 400;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background: black;
-    width: 87%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    
-}
-
-.concert:hover::after {
-    opacity: 0.7;
-    
-}
-
-.grammy {
-   position: relative;
-   left: 10%;
-}
-
-.grammy::after {
-    content: "Best Pop Solo Peformance 2016";
-    color: #fff;
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: 400;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background: black;
-    width: 87%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    
-}
-
-.grammy:hover::after {
-    opacity: 0.7;
-}
-
-.stormzy {
-   position: relative;
-   left: 5%;
-}
-
-.stormzy::after {
-    content: "Performance with rap artist Stormzy";
-    color: #fff;
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: 400;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background: black;
-    width: 87%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    
-}
-
-.stormzy:hover::after {
-    opacity: 0.7;
-}
-
-
-
-
-
