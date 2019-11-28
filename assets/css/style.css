@@ -21,8 +21,12 @@ body {
 
 /*----------CAROUSEL------------*/
 
-.carousel-caption {
+.ED {
    color: #FFA351;
-   font-size: large;
+   font-size: 50px;
    font-family: monospace;
+}
+
+#carouselExampleCaptions {
+    height: 40%;
 }
