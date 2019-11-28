@@ -27,6 +27,6 @@ body {
    font-family: monospace;
 }
 
-#carouselExampleCaptions {
-    height: 40%;
+.size {
+    height: 60vh;
 }
