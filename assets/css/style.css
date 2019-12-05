@@ -1,32 +1,102 @@
 body {
-    background-image: url("../../assets/images/creamwallpaper.jpg");
-    background-size: cover;
+    background-color: #000000;
 }
 
 
 /*----------NAVBAR------------*/
 
-.navbar.navbar-expand-lg.navbar-light.bg-light .edsheeran-brand {
-    color: #FFA351;
-    font-family: monospace;
+.navbar.navbar-expand-lg.navbar-dark.bg-dark .edsheeran-brand {
+    color: #6594F1;
+    font-family: sans-serif;
     font-size: 25px;
 
 }
 
-.navbar.navbar-expand-lg.navbar-light.bg-light .nav-link {
-    color: #FFA351;
-    font-family: monospace;
+.navbar.navbar-expand-lg.navbar-dark.bg-dark .nav-link {
+    color: #6594F1;
+    font-family: sans-serif;
     font-size: 15px;
 }
 
 /*----------CAROUSEL------------*/
 
-.ED {
-   color: #FFA351;
-   font-size: 50px;
-   font-family: monospace;
+.size {
+    height: 90vh;
+    width: 100%;
 }
 
-.size {
-    height: 60vh;
+/*------------ABOUT-------------*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6594F1;
+    position: absolute;
+    left: 5em;
+    width: 500px;
+    height: 100px;
+
+}
+
+.about:before,
+.about:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.about:after {
+    margin: 0 0 0 20px;
+}
+
+.para1 {
+    color: #6594F1;
+    position: absolute;
+    top: 75px;
+    left: 10em;
+    width: 500px;
+    height: 100px;
+    
+
+}
+
+.imgbackground {
+    position: absolute;
+    left: 55em;
+    top: 5em;
+}
+
+
+.listen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6594F1;
+    position: absolute;
+    top: 30em;
+    left: 10em;
+    width: 500px;
+    height: 100px;
+
+}
+
+.listen:before,
+.listen:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.listen:after {
+    margin: 0 0 0 20px;
+}
+
+.song {
+    position: absolute;
+    top: 10em;
 }
