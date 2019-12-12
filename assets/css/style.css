@@ -59,14 +59,14 @@ body {
     left: 5em;
     width: 500px;
     height: 100px;
-    
+
 
 }
 
 .imgbackground {
-    position: absolute;
-    left: 55em;
+    position: relative;
     top: 5em;
+    left: 50em;
 }
 
 
@@ -78,7 +78,7 @@ body {
     color: #6594F1;
     position: absolute;
     top: 30em;
-    left: 5em;
+    right: 3em;
     width: 500px;
     height: 100px;
 
@@ -99,4 +99,5 @@ body {
 .song {
     position: absolute;
     top: 8em;
+    right: 6em;
 }
