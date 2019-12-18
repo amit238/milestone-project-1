@@ -77,8 +77,8 @@ body {
     text-align: center;
     color: #6594F1;
     position: absolute;
-    top: 30em;
-    right: 3em;
+    bottom: 30em;
+    right: 35em;
     width: 500px;
     height: 100px;
 
@@ -98,6 +98,7 @@ body {
 
 .song {
     position: absolute;
-    top: 8em;
-    right: 6em;
+    top: 10em;
+    right: 7em;
+    
 }
