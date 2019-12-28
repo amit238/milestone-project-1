@@ -27,78 +27,24 @@ body {
 
 /*------------ABOUT-------------*/
 
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #6594F1;
-    position: absolute;
-    left: 2.5em;
-    width: 500px;
-    height: 100px;
-
+.background {
+    background-image: url("../../edsheeranblack.png");
+    background-repeat: no-repeat;
+    background-position:top right;
 }
 
-.about:before,
-.about:after {
-    content: '';
-    border-top: 2px solid;
-    margin: 0 20px 0 0;
-    flex: 1 0 20px;
-}
-
-.about:after {
-    margin: 0 0 0 20px;
-}
-
-.para1 {
-    color: #6594F1;
-    position: absolute;
-    top: 75px;
-    left: 5em;
-    width: 500px;
-    height: 100px;
-
-
-}
-
-.imgbackground {
+.container {
     position: relative;
-    top: 5em;
-    left: 50em;
+    top: 3em;
+    height: 35em;
 }
 
-
-.listen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #6594F1;
-    position: absolute;
-    bottom: 30em;
-    right: 35em;
-    width: 500px;
-    height: 100px;
-
+.about-section {
+    width: 60%;
+    color: red;
 }
 
-.listen:before,
-.listen:after {
-    content: '';
-    border-top: 2px solid;
-    margin: 0 20px 0 0;
-    flex: 1 0 20px;
-}
-
-.listen:after {
-    margin: 0 0 0 20px;
-}
-
-.song {
-    position: absolute;
-    top: 10em;
-    right: 7em;
-    
+.audio-section {
+    width: 60%;
+    color: red;
 }
