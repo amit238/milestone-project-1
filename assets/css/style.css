@@ -30,21 +30,16 @@ body {
 .background {
     background-image: url("../../edsheeranblack.png");
     background-repeat: no-repeat;
-    background-position:top right;
+    background-position: top right;
 }
 
 .container {
+    width: 100%;
+    color: red;
     position: relative;
     top: 3em;
     height: 35em;
+
 }
 
-.about-section {
-    width: 60%;
-    color: red;
-}
 
-.audio-section {
-    width: 60%;
-    color: red;
-}
