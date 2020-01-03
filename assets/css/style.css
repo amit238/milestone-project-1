@@ -42,4 +42,16 @@ body {
 
 }
 
+@media screen and (min-width: 1302px) {
+  .container {
+    background-image: url("../../edsheeranblack.png") no-repeat;
+  }
+   .about-para {
+     width: 60% ;
+  }
+}
 
+@media screen and (max-width: 1302px) {
+  .background {
+    visibility: hidden;
+  }
