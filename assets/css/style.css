@@ -4,6 +4,8 @@ body {
 
 /*--------------------NAVBAR--------------------*/
 
+
+
 .navbar.navbar-expand-lg.navbar-dark.bg-dark .edsheeran-brand {
     color: #2E3EFF;
     font-family: Verdana, sans-serif;
@@ -19,7 +21,7 @@ body {
     font-weight: 300;
 }
 
-/*--------------------INDEX-----------------------*/
+/*----------INDEX-----------*/
 
 /*--------------------CAROUSEL--------------------*/
 
@@ -34,106 +36,38 @@ body {
     background-image: url("../../edsheeranblack.png");
     background-repeat: no-repeat;
     background-position: top right;
+    position: relative;
+    right: 1em;
 }
 
 /*--------------------CONTAINER--------------------*/
 
 .container {
     width: 100%;
-    color: red;
     position: relative;
-    top: 3em;
-    right: 1em;
+    top: 5em;
     text-align: center;
 }
 
 /*--------------------ABOUT--------------------*/
 
-.about-section {
-    position: relative;
-    bottom: 2em;
-    text-align: left;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 2px;
-    width: 60%;
-    padding: 0;
-    margin: 0;
-    color: #6594F1;
-
-}
-
-.about-header {
-    position: relative;
-    left: 46%;
-    font-weight: 900;
+.content-card {
+    width: 65%;
     color: #2E3EFF;
-    font-family: Verdana, sans-serif;
 }
 
-.about-para {
+.card {
+    background-color: #343a40;
     position: relative;
-    left: 1em;
-    display: inline;
-    font-weight: 600;
-    font-family: Helvetica, sans-serif;
+    right: 2em;
 }
+
 
 /*--------------------AUDIO--------------------*/
 
-.audio-section {
-    position: relative;
-    bottom: 1em;
-    left: 1em;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 2px;
-    width: 60%;
-    padding: 0;
-    margin-bottom: 5em;
-    color: #6594F1;
-}
-
-.audio-header {
-    font-weight: 900;
-    color: #2E3EFF;
-    font-family: Verdana, sans-serif;
-}
-
-.song-name {
-    font-weight: 600;
-    font-family: Helvetica, sans-serif;
-}
 
 /*--------------------ALBUM--------------------*/
 
-.album-section {
-    position: relative;
-    bottom: 5em;
-    border-radius: 25px;
-    border-style: solid;
-    border-width: 2px;
-    width: 60%;
-    padding: 0;
-    margin: 0;
-    color: #6594F1;
-
-}
-
-.album-header {
-    color: #2E3EFF;
-    font-weight: 900;
-    font-family: Verdana, sans-serif;
-}
-
-.album-name {
-    font-weight: 600;
-    font-family: Helvetica, sans-serif;
-}
-
-.Album-img {
-    padding: 2em;
-}
 
 /*--------------------FOOTER--------------------*/
 
@@ -155,6 +89,7 @@ footer hr {
     .about-para {
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width: 1380px) {
@@ -168,11 +103,16 @@ footer hr {
         width: 100%;
     }
     .audio-section {
-        width: 100%
+        width: 100%;
     }
     .album-section {
-        width: 100%
+        width: 100%;
     }
+
+    .content-card {
+        width: 100%;
+    }
+    
 
 }
 
@@ -199,28 +139,24 @@ footer hr {
 }
 
 .NewMerch {
+    text-align: center;
     color: #6594F1;
     font-weight: 600;
     font-family: Helvetica, sans-serif;
+    padding: 1em;
 }
+
+.best-sell {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: #6594F1;
+    font-size: 400%;
+    font-weight: 600;
+    padding: 1em;
+}
+
 
 /*--------------------MEDIA QUERIES_MERCH--------------------*/
-
-@media only screen and (max-width: 1046px) {
-    .no-6-blacktee {
-       
-    }
-    .no.6-tshirt {
-        
-    }
-    .orange-tshirt {
-       
-    }
-    .watermelon-tshirt {
-        
-    }
-}
-
 
 /*--------------------SUBSCRIBE--------------------*/
 
