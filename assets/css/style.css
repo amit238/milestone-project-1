@@ -4,8 +4,6 @@ body {
 
 /*--------------------NAVBAR--------------------*/
 
-
-
 .navbar.navbar-expand-lg.navbar-dark.bg-dark .edsheeran-brand {
     color: #2E3EFF;
     font-family: Verdana, sans-serif;
@@ -26,48 +24,71 @@ body {
 /*--------------------CAROUSEL--------------------*/
 
 .size {
-    height: 90vh;
     width: 100%;
 }
 
 /*-------------------BACKGROUND--------------------*/
 
+/*.background {*/
+
+/*    background-image: url("../../edsheeranblack.png");*/
+
+/*    background-repeat: no-repeat;*/
+
+/*    background-position: top right;*/
+
+/*    position: relative;*/
+
+/*    right: 1em;*/
+
+/*}*/
+
 .background {
     background-image: url("../../edsheeranblack.png");
     background-repeat: no-repeat;
     background-position: top right;
-    position: relative;
-    right: 1em;
 }
 
 /*--------------------CONTAINER--------------------*/
 
+/*.container {*/
+
+/*    width: 100%;*/
+
+/*    position: relative;*/
+
+/*    top: 5em;*/
+
+/*    text-align: center;*/
+
+/*}*/
+
 .container {
-    width: 100%;
     position: relative;
-    top: 5em;
-    text-align: center;
+    top: 2em;
 }
 
 /*--------------------ABOUT--------------------*/
 
-.content-card {
-    width: 65%;
-    color: #2E3EFF;
-}
+/*.content-card {*/
+
+/*    width: 65%;*/
+
+/*    color: #2E3EFF;*/
+
+/*}*/
 
 .card {
     background-color: #343a40;
-    position: relative;
-    right: 2em;
+    text-align: center;
+
 }
+
 
 
 /*--------------------AUDIO--------------------*/
 
-
 /*--------------------ALBUM--------------------*/
-
 
 /*--------------------FOOTER--------------------*/
 
@@ -77,7 +98,7 @@ body {
 
 footer hr {
     background: #2E3EFF;
-    width: 80%;
+    width: 90%;
 }
 
 /*--------------------MEDIA QUERIES_INDEX--------------------*/
@@ -88,6 +109,10 @@ footer hr {
     }
     .about-para {
         width: 100%;
+    }
+
+    .card {
+        width: 65%;
     }
 
 }
@@ -109,11 +134,9 @@ footer hr {
         width: 100%;
     }
 
-    .content-card {
-        width: 100%;
-    }
-    
-
+    /*.content-card {*/
+    /*    width: 100%;*/
+    /*}*/
 }
 
 
