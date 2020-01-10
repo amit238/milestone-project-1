@@ -34,38 +34,40 @@ body {
     background-repeat: no-repeat;
     background-position: top right;
     position: relative;
-    left: 2em;
-    height: 100%;
+    left: 3em;
 }
 
-/*--------------------CONTAINER--------------------*/
+/*-------CONTAINER--------*/
 
 .container-fluid {
-    margin-bottom: 5em;
     position: relative;
-    top: 2em;
-    right: 20em;
+    right: 18em;
     width: 60%;
-}
-
-/*--------------------ABOUT--------------------*/
-
-.card {
-    background-color: #343a40;
     text-align: center;
-
 }
 
+/*--------ABOUT--------*/
 
+.about-card {
+    margin-top: 3em
+}
 
-/*--------------------AUDIO--------------------*/
+/*-------AUDIO&ALBUM-------*/
 
-/*.audio-card {*/
-/*    margin-top: 2em;*/
-/*    width: 45em;*/
-/*}*/
+.audio-album {
+    margin-top: 3em;
+}
 
-/*--------------------ALBUM--------------------*/
+/*-------AUDIO-------*/
+
+.audio-card {
+    height: 13.6em;
+}
+
+/*--------ALBUM-------*/
+
+.album-card {}
+
 
 /*--------------------FOOTER--------------------*/
 
@@ -81,63 +83,16 @@ footer hr {
 
 /*--------------------MEDIA QUERIES_INDEX--------------------*/
 
-@media screen and (min-width: 1380px) {
-
-/*    .card {*/
-/*        width: 65%;*/
-/*    }*/
-/*}*/
+/*@media screen and (min-width: 1380px) {*/
 
 @media only screen and (max-width: 1380px) {
     .background {
         background-image: none;
     }
-
-
-
-
-/*--------------------EVENTS--------------------*/
-    .events {
-        font-family: Verdana, sans-serif;
-        text-align: center;
-        color: #2E3EFF;
-        font-size: 400%;
-        font-weight: 800;
+    
+    .container-fluid {
+        width:100%;
     }
-
-/*--------------------MERCHANDISE--------------------*/
-    .Merchandise {
-        font-family: Verdana, sans-serif;
-        text-align: center;
-        color: #2E3EFF;
-        font-size: 400%;
-        font-weight: 800;
-    }
-
-    .NewMerch {
-        text-align: center;
-        color: #6594F1;
-        font-weight: 600;
-        font-family: Helvetica, sans-serif;
-        padding: 1em;
-    }
-
-    .best-sell {
-        font-family: Helvetica, sans-serif;
-        text-align: center;
-        color: #6594F1;
-        font-size: 400%;
-        font-weight: 600;
-        padding: 1em;
-    }
+}
 
 
-/*--------------------MEDIA QUERIES_MERCH--------------------*/
-/*--------------------SUBSCRIBE--------------------*/
-    .Subscribe {
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    color: #2E3EFF;
-        font-size: 400%;
-        font-weight: 800;
-    }
