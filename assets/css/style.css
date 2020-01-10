@@ -33,22 +33,24 @@ body {
     background-image: url("../../edsheeranblack.png");
     background-repeat: no-repeat;
     background-position: top right;
-    height: 25em;
+    position: relative;
+    left: 2em;
+    height: 100%;
 }
 
 /*--------------------CONTAINER--------------------*/
 
 .container-fluid {
+    margin-bottom: 5em;
     position: relative;
     top: 2em;
-    margin: 5em;
+    right: 20em;
+    width: 60%;
 }
 
 /*--------------------ABOUT--------------------*/
 
 .card {
-    position: relative;
-    right: 5em;
     background-color: #343a40;
     text-align: center;
 
@@ -70,9 +72,8 @@ body {
 .list-inline {
     text-align: center;
 }
-footer {
-    margin-top: 25em;
-}
+
+
 footer hr {
     background: #2E3EFF;
     width: 90%;
@@ -92,10 +93,6 @@ footer hr {
         background-image: none;
     }
 
-    /*.card {*/
-    /*    position: relative;*/
-    /*    left: 0em;*/
-    /*}*/
 
 
 
