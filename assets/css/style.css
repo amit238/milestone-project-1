@@ -29,56 +29,26 @@ body {
 
 /*-------------------BACKGROUND--------------------*/
 
-/*.background {*/
-
-/*    background-image: url("../../edsheeranblack.png");*/
-
-/*    background-repeat: no-repeat;*/
-
-/*    background-position: top right;*/
-
-/*    position: relative;*/
-
-/*    right: 1em;*/
-
-/*}*/
-
 .background {
     background-image: url("../../edsheeranblack.png");
     background-repeat: no-repeat;
     background-position: top right;
+    height: 25em;
 }
 
 /*--------------------CONTAINER--------------------*/
 
-/*.container {*/
-
-/*    width: 100%;*/
-
-/*    position: relative;*/
-
-/*    top: 5em;*/
-
-/*    text-align: center;*/
-
-/*}*/
-
-.container {
+.container-fluid {
     position: relative;
     top: 2em;
+    margin: 5em;
 }
 
 /*--------------------ABOUT--------------------*/
 
-/*.content-card {*/
-
-/*    width: 65%;*/
-
-/*    color: #2E3EFF;*/
-
-/*}*/
-
 .card {
+    position: relative;
+    right: 5em;
     background-color: #343a40;
     text-align: center;
 
@@ -88,6 +58,11 @@ body {
 
 /*--------------------AUDIO--------------------*/
 
+.audio-card {
+    margin-top: 2em;
+    width: 45em;
+}
+
 /*--------------------ALBUM--------------------*/
 
 /*--------------------FOOTER--------------------*/
@@ -95,7 +70,9 @@ body {
 .list-inline {
     text-align: center;
 }
-
+footer {
+    margin-top: 25em;
+}
 footer hr {
     background: #2E3EFF;
     width: 90%;
@@ -104,16 +81,11 @@ footer hr {
 /*--------------------MEDIA QUERIES_INDEX--------------------*/
 
 @media screen and (min-width: 1380px) {
-    .container {
-        background-image: no-repeat;
-    }
-    .about-para {
-        width: 100%;
-    }
 
     .card {
         width: 65%;
     }
+
 
 }
 
@@ -121,72 +93,56 @@ footer hr {
     .background {
         background-image: none;
     }
-    .about-para {
-        width: 100%;
-    }
-    .about-section {
-        width: 100%;
-    }
-    .audio-section {
-        width: 100%;
-    }
-    .album-section {
-        width: 100%;
-    }
 
-    /*.content-card {*/
-    /*    width: 100%;*/
-    /*}*/
-}
+    .card {
+        position: relative;
+        left: 0em;
+    }
 
 
 
 /*--------------------EVENTS--------------------*/
-
-.events {
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    color: #2E3EFF;
-    font-size: 400%;
-    font-weight: 800;
-}
+    .events {
+        font-family: Verdana, sans-serif;
+        text-align: center;
+        color: #2E3EFF;
+        font-size: 400%;
+        font-weight: 800;
+    }
 
 /*--------------------MERCHANDISE--------------------*/
+    .Merchandise {
+        font-family: Verdana, sans-serif;
+        text-align: center;
+        color: #2E3EFF;
+        font-size: 400%;
+        font-weight: 800;
+    }
 
-.Merchandise {
-    font-family: Verdana, sans-serif;
-    text-align: center;
-    color: #2E3EFF;
-    font-size: 400%;
-    font-weight: 800;
-}
+    .NewMerch {
+        text-align: center;
+        color: #6594F1;
+        font-weight: 600;
+        font-family: Helvetica, sans-serif;
+        padding: 1em;
+    }
 
-.NewMerch {
-    text-align: center;
-    color: #6594F1;
-    font-weight: 600;
-    font-family: Helvetica, sans-serif;
-    padding: 1em;
-}
-
-.best-sell {
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    color: #6594F1;
-    font-size: 400%;
-    font-weight: 600;
-    padding: 1em;
-}
+    .best-sell {
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        color: #6594F1;
+        font-size: 400%;
+        font-weight: 600;
+        padding: 1em;
+    }
 
 
 /*--------------------MEDIA QUERIES_MERCH--------------------*/
-
 /*--------------------SUBSCRIBE--------------------*/
-
-.Subscribe {
+    .Subscribe {
     font-family: Verdana, sans-serif;
     text-align: center;
     color: #2E3EFF;
-    font-size: 400%;
-    font-weight: 800;
-}
+        font-size: 400%;
+        font-weight: 800;
+    }
