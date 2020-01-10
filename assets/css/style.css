@@ -58,10 +58,10 @@ body {
 
 /*--------------------AUDIO--------------------*/
 
-.audio-card {
-    margin-top: 2em;
-    width: 45em;
-}
+/*.audio-card {*/
+/*    margin-top: 2em;*/
+/*    width: 45em;*/
+/*}*/
 
 /*--------------------ALBUM--------------------*/
 
@@ -82,22 +82,20 @@ footer hr {
 
 @media screen and (min-width: 1380px) {
 
-    .card {
-        width: 65%;
-    }
-
-
-}
+/*    .card {*/
+/*        width: 65%;*/
+/*    }*/
+/*}*/
 
 @media only screen and (max-width: 1380px) {
     .background {
         background-image: none;
     }
 
-    .card {
-        position: relative;
-        left: 0em;
-    }
+    /*.card {*/
+    /*    position: relative;*/
+    /*    left: 0em;*/
+    /*}*/
 
 
 
