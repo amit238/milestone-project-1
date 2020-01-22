@@ -97,20 +97,21 @@ hr {
 
 /*-------------------------Events-------------------------*/
 
-.events-date {
-    text-align: center;
-}
-
-
 .events-left {
     text-align: left;
-    margin: 0;
-    padding: 0;
+    margin-left: 5em;
+    margin-top: 2em;
 }
 
 
 .events-center {
     text-align: center;
+}
+
+.events-right {
+    text-align: right;
+    margin-right: 5em;
+    margin-top: 4em;
 }
 
 .events-leeds {
@@ -122,11 +123,12 @@ hr {
 .events-leeds:hover {
     opacity: 1;
     transition-duration: 1.5s;
-    
+
 }
 
+
 .events-london {
-    background-image: url("../../wembley-stadium.png");
+    background-image: url("../../wembley.png");
     background-repeat: no-repeat;
     opacity: 0.5;
 }
@@ -134,11 +136,11 @@ hr {
 .events-london:hover {
     opacity: 1;
     transition-duration: 1.5s;
-    
+
 }
 
 .events-ipswich {
-    background-image: url("../../chantry-park.png");
+    background-image: url("../../chantry.png");
     background-repeat: no-repeat;
     opacity: 0.5;
 }
@@ -146,7 +148,7 @@ hr {
 .events-ipswich:hover {
     opacity: 1;
     transition-duration: 1.5s;
-    
+
 }
 
 .events-madrid {
@@ -158,7 +160,7 @@ hr {
 .events-madrid:hover {
     opacity: 1;
     transition-duration: 1.5s;
-    
+
 }
 
 .events-lyon {
@@ -170,7 +172,7 @@ hr {
 .events-lyon:hover {
     opacity: 1;
     transition-duration: 1.5s;
-    
+
 }
 
 .events-lisbon {
@@ -182,7 +184,7 @@ hr {
 .events-lisbon:hover {
     opacity: 1;
     transition-duration: 1.5s;
-  
+
 }
 
 /*-------------------------Merchandise-------------------------*/
@@ -360,11 +362,11 @@ hr {
 .sub-background:hover {
     opacity: 1;
     transition-duration: 2s;
-    
+
 }
 
 .sub-background2:hover {
     opacity: 1;
     transition-duration: 2s;
-    
+
 }
