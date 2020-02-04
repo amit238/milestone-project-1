@@ -2,6 +2,8 @@ body {
     background-color: #343A40;
 }
 
+
+
 /*--------------------NAVBAR--------------------*/
 
 .navbar.navbar-expand-lg.navbar-dark.bg-dark .edsheeran-brand {
@@ -97,31 +99,38 @@ hr {
 
 /*-------------------------Events-------------------------*/
 
+.hyper-colour {
+    color: #6594F1;
+}
+
 .events-left {
-    text-align: left;
+    text-align: center;
     margin-left: 5em;
     margin-top: 2em;
+    color: #6594F1;
+    background-color: #343A40;
+    width: 50%;
+    opacity: 1;
 }
 
 
 .events-center {
     text-align: center;
+    margin-top: 1em;
+    color: #6594F1;
+    background-color: #343A40;
+    width: 100%;
 }
 
-.events-right {
-    text-align: right;
-    margin-right: 5em;
-    margin-top: 4em;
-}
 
 .events-leeds {
-    background-image: url("../../roundhay-park.png");
+    background-image: url("../../roundhay.png");
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .events-leeds:hover {
-    opacity: 1;
+    opacity: 2;
     transition-duration: 1.5s;
 
 }
@@ -130,7 +139,7 @@ hr {
 .events-london {
     background-image: url("../../wembley.png");
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .events-london:hover {
@@ -142,7 +151,7 @@ hr {
 .events-ipswich {
     background-image: url("../../chantry.png");
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .events-ipswich:hover {
@@ -154,7 +163,7 @@ hr {
 .events-madrid {
     background-image: url("../../wanda.png");
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .events-madrid:hover {
@@ -163,10 +172,11 @@ hr {
 
 }
 
+
 .events-lyon {
     background-image: url("../../lyon.png");
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .events-lyon:hover {
@@ -176,15 +186,42 @@ hr {
 }
 
 .events-lisbon {
-    background-image: url("../../estadio.png");
+    background-image: url("../../lisbon.png");
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .events-lisbon:hover {
     opacity: 1;
     transition-duration: 1.5s;
 
+}
+
+.bold {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 599px) {
+    .events-left {
+        width: 100%;
+        margin-left: 0em;
+    }
+    .events-center {
+        width: 100%;
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 25px;
+    }
 }
 
 /*-------------------------Merchandise-------------------------*/
@@ -228,28 +265,17 @@ hr {
 
 /*-------------------------Subscribe-------------------------*/
 
-/*.subscribe {*/
-
-/*    text-align: center;*/
-
-/*    color: #2E3EFF;*/
-
-/*    font-weight: 600;*/
-
-/*    margin-top: 1em;*/
-
-/*}*/
 
 .sub-background {
     background-image: url("../../ed-sheeran-singing.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    opacity: 0.5;
+    opacity: 0.7;
     height: 55em;
 }
 
 .sub-form {
-    margin-top: 16em;
+    margin-top: 14em;
 }
 
 .form {
@@ -264,7 +290,7 @@ hr {
 .sub-head {
     text-align: center;
     font-size: 50px;
-    padding: 40px;
+    padding: 20px;
     margin-top: 5em;
     background-color: #2E3EFF;
 }
@@ -272,49 +298,14 @@ hr {
 .sub-para {
     text-align: center;
     font-size: 25px;
+    background-color: #6594F1;
 }
 
-.sub-background2 {
-    background-image: url("../../ed-sheeran-guitar.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    opacity: 0.5;
-    height: 55em;
-}
+.sub-background:hover {
+    opacity: 1;
+    transition-duration: 2s;
 
-.sub-issue {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 17em
 }
-
-.sub-li {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 13em
-}
-
-.sub-map {
-    text-align: center;
-    margin-top: 17em;
-}
-
-.phone-li {
-    margin: 1em;
-}
-
-.email-li {
-    margin: 1em;
-}
-
-.mail-li {
-    margin: 1em;
-}
-
-.sub-footer {
-    margin-top: 2em;
-}
-
 
 @media only screen and (max-width: 768px) {
     .sub-form {
@@ -328,45 +319,28 @@ hr {
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    .sub-background2 {
-        height: 60em;
-    }
-    .sub-issue {
-        margin-top: 1em
-    }
-    .sub-li {
-        margin-top: 1em;
-    }
-    .sub-map {
-        margin-top: 1em
-    }
+
+/*-----------------Subscribe - Second Part -----------------*/
+
+.sub-card-issue {
+    text-align: center;
+    background-color: #343A40;
+    margin-top: 9em;
 }
 
-@media only screen and (max-width: 435px) {
-    .sub-map {
-        display: none;
-    }
+.sub-card-list {
+    text-align: center;
+    background-color: #343A40;
+    margin-top: 5em;
 }
 
-@media only screen and (max-width: 352px) {
-    .form {
-        padding-bottom: 1em;
-    }
-
-    .sub-btn {
-        padding-bottom: 0em;
-    }
+.sub-card-map {
+    text-align: center;
+    background-color: #343A40;
+    margin-top: 1em;
 }
 
-.sub-background:hover {
-    opacity: 1;
-    transition-duration: 2s;
 
-}
 
-.sub-background2:hover {
-    opacity: 1;
-    transition-duration: 2s;
 
-}
+
