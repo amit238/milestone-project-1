@@ -265,7 +265,6 @@ hr {
 
 /*-------------------------Subscribe-------------------------*/
 
-
 .sub-background {
     background-image: url("../../ed-sheeran-singing.jpg");
     background-repeat: no-repeat;
@@ -273,25 +272,14 @@ hr {
     opacity: 0.7;
     height: 55em;
 }
-
-.sub-form {
-    margin-top: 14em;
-}
-
-.form {
-    padding: 1em;
-}
-
-.sub-btn {
-    text-align: center;
-    padding-bottom: 1em;
+.sub-title {
+    position: relative;
+    top: 15em;
 }
 
 .sub-head {
     text-align: center;
     font-size: 50px;
-    padding: 20px;
-    margin-top: 5em;
     background-color: #2E3EFF;
 }
 
@@ -301,21 +289,38 @@ hr {
     background-color: #6594F1;
 }
 
+.form {
+    padding-top: 1em;
+}
+
+.sub-form {
+    position: relative;
+    top: 14em;
+}
+
+.sub-btn {
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+
 .sub-background:hover {
     opacity: 1;
     transition-duration: 2s;
 
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 769px) {
+    .sub-title {
+        position: relative;
+        top: 5em;
+    }
+    
     .sub-form {
-        margin-top: 0em;
-    }
-    .sub-head {
-        margin-top: 0em;
-    }
-    .form {
-        padding-bottom: 2em;
+        position: relative;
+        top: 4em;
     }
 }
 
@@ -326,6 +331,14 @@ hr {
     text-align: center;
     background-color: #343A40;
     margin-top: 9em;
+}
+
+.blue {
+    color: #2E3EFF;
+}
+
+.lg-blue {
+    color: #6594F1;
 }
 
 .sub-card-list {
@@ -340,7 +353,16 @@ hr {
     margin-top: 1em;
 }
 
+.map {
+    height: 50vh;
+}
 
 
-
-
+@media only screen and (max-width: 1199px) {
+    .sub-card-issue {
+        margin-top: 1em;
+    }
+    .sub-card-list {
+        margin-top: 1em;
+    }
+}
