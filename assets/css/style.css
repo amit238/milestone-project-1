@@ -30,7 +30,6 @@ body {
 
 /*--------------------INDEX--------------------*/
 
-
 /*-------------Carousel---------------*/
 
 #carouselExampleCaptions {
@@ -80,19 +79,30 @@ body {
     color: #6594F1;
 }
 
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 .events-left {
     font-family: 'Kanit', sans-serif;
     text-align: center;
-    margin-left: 5em;
+    margin-left: 0em;
     margin-top: 2em;
     color: #6594F1;
     background-color: #343A40;
-    width: 50%;
+    width: 80%;
     opacity: 1;
 }
 
-
-.events-center {
+.events-right {
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     margin-top: 1em;
@@ -174,31 +184,19 @@ body {
 }
 
 
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 599px) {
     .events-left {
-        width: 100%;
-        margin-left: 0em;
+        width: 40%;
+        margin-left: 5em;
     }
-    .events-center {
+    .events-right {
         width: 100%;
         margin-top: 1em;
     }
 }
 
-@media only screen and (max-width: 375px) {
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 25px;
-    }
-}
 
 /*----------------------Merchandise-----------------------*/
-
 
 .best-sellers {
     font-family: 'Kanit', sans-serif;
@@ -229,11 +227,12 @@ body {
     font-family: 'Varela Round', sans-serif;
     background-color: #343A40;
     text-align: center;
+    margin: 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .card-merch {
-        margin: 1em;
+        margin: 0em;
     }
 }
 
@@ -250,7 +249,7 @@ body {
 
 .sub-title {
     position: relative;
-    top: 15em;
+    top: 5em;
 }
 
 .sub-head {
@@ -273,7 +272,7 @@ body {
 
 .sub-form {
     position: relative;
-    top: 14em;
+    top: 4em;
 }
 
 .sub-btn {
@@ -288,15 +287,15 @@ body {
     transition-duration: 2s;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 769px) {
     .sub-title {
         position: relative;
-        top: 5em;
+        top: 15em;
     }
 
     .sub-form {
         position: relative;
-        top: 4em;
+        top: 14em;
     }
 }
 
@@ -306,7 +305,7 @@ body {
 .sub-card-issue {
     text-align: center;
     background-color: #343A40;
-    margin-top: 9em;
+    margin-top: 1em;
 }
 
 .blue {
@@ -324,7 +323,7 @@ body {
     right: 1em;
     text-align: center;
     background-color: #343A40;
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .sub-card-map {
@@ -338,12 +337,12 @@ body {
 }
 
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 1199px) {
     .sub-card-issue {
-        margin-top: 1em;
+        margin-top: 9em;
     }
     .sub-card-list {
-        margin-top: 1em;
+        margin-top: 5em;
     }
 }
 
