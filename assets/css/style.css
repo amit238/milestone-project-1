@@ -3,45 +3,56 @@ body {
 }
 
 
-
 /*--------------------NAVBAR--------------------*/
 
 .navbar.navbar-expand-lg.navbar-dark.bg-dark .edsheeran-brand {
+    font-family: 'Indie Flower', cursive;
     color: #2E3EFF;
-    font-family: Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-
-
+    font-size: 150%;
 }
 
 .navbar.navbar-expand-lg.navbar-dark.bg-dark .nav-link {
+    font-family: 'Varela Round', sans-serif;
     color: #6594F1;
-    font-family: Helvetica, sans-serif;
     font-size: 15px;
-    font-weight: 300;
-
 }
+
+/*------------Navbar margin------------*/
+
+.container-fluid {
+    margin-top: 3em;
+}
+
+.marg {
+    margin-top: 1em;
+}
+
 
 /*--------------------INDEX--------------------*/
 
-/*-------CAROUSEL--------*/
 
-.size {
-    width: 100%;
+/*-------------Carousel---------------*/
+
+#carouselExampleCaptions {
+    margin-top: 3em;
 }
 
-/*--------ABOUT--------*/
+/*-----------About/Audio/Album Section------------*/
+
+.card-title {
+    font-family: 'Kanit', sans-serif;
+}
+
+.card-text {
+    font-family: 'Varela Round', sans-serif;
+}
 
 .about-card {
-    margin-top: 2em;
     text-align: center;
     color: #2E3EFF;
     background-color: #343A40;
 }
 
-
-/*-------AUDIO-------*/
 
 .audio-card {
     margin-top: 2em;
@@ -49,8 +60,6 @@ body {
     color: #2E3EFF;
     background-color: #343A40;
 }
-
-/*--------ALBUM-------*/
 
 .album-card {
     margin-top: 2em;
@@ -65,38 +74,6 @@ body {
 }
 
 
-/*--------------------MEDIA QUERIES_INDEX--------------------*/
-
-/*@media screen and (min-width: 1380px) {*/
-
-@media only screen and (max-width: 1380px) {}
-
-/*@media only screen and (max-width: 576px) {}*/
-
-/*--------------------FOOTER--------------------*/
-
-footer {
-    text-align: center;
-}
-
-hr {
-    background: #3A3A3A;
-    width: 85%;
-}
-
-.footer-header {
-    color: #2E3EFF;
-    margin-top: 1em;
-}
-
-.list-inline {
-    margin-top: 1em;
-}
-
-.footer-p {
-    color: #6594F1;
-}
-
 /*-------------------------Events-------------------------*/
 
 .hyper-colour {
@@ -104,6 +81,7 @@ hr {
 }
 
 .events-left {
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     margin-left: 5em;
     margin-top: 2em;
@@ -115,6 +93,7 @@ hr {
 
 
 .events-center {
+    font-family: 'Varela Round', sans-serif;
     text-align: center;
     margin-top: 1em;
     color: #6594F1;
@@ -124,7 +103,7 @@ hr {
 
 
 .events-leeds {
-    background-image: url("../../roundhay.png");
+    background-image: url("../images/roundhay.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
@@ -132,12 +111,11 @@ hr {
 .events-leeds:hover {
     opacity: 2;
     transition-duration: 1.5s;
-
 }
 
 
 .events-london {
-    background-image: url("../../wembley.png");
+    background-image: url("../images/wembley.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
@@ -145,11 +123,10 @@ hr {
 .events-london:hover {
     opacity: 1;
     transition-duration: 1.5s;
-
 }
 
 .events-ipswich {
-    background-image: url("../../chantry.png");
+    background-image: url("../images/chantry.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
@@ -161,7 +138,7 @@ hr {
 }
 
 .events-madrid {
-    background-image: url("../../wanda.png");
+    background-image: url("../images/wanda.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
@@ -169,12 +146,11 @@ hr {
 .events-madrid:hover {
     opacity: 1;
     transition-duration: 1.5s;
-
 }
 
 
 .events-lyon {
-    background-image: url("../../lyon.png");
+    background-image: url("../images/lyon.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
@@ -186,7 +162,7 @@ hr {
 }
 
 .events-lisbon {
-    background-image: url("../../lisbon.png");
+    background-image: url("../images/lisbon.png");
     background-repeat: no-repeat;
     opacity: 0.7;
 }
@@ -197,9 +173,6 @@ hr {
 
 }
 
-.bold {
-    font-weight: 700;
-}
 
 @media only screen and (max-width: 599px) {
     .events-left {
@@ -212,7 +185,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 375px) {
     h1 {
         font-size: 25px;
     }
@@ -224,36 +197,38 @@ hr {
     }
 }
 
-/*-------------------------Merchandise-------------------------*/
+/*----------------------Merchandise-----------------------*/
 
-.card-title {
-    color: #2E3EFF;
-}
-
-.card-merch {
-    background-color: #343A40;
-    text-align: center;
-}
-
-.merchandise {
-    text-align: center;
-    color: #2E3EFF;
-    font-weight: 600;
-    margin: 1em;
-}
 
 .best-sellers {
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
     text-align: center;
     color: #6594F1;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 30px;
     margin: 1em;
 }
 
 .latest-release {
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
     text-align: center;
     color: #6594F1;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 30px;
     margin: 1em;
+}
+
+.card-title {
+    font-family: 'Kanit', sans-serif;
+    color: #2E3EFF;
+}
+
+.card-merch {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #343A40;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -263,27 +238,30 @@ hr {
 }
 
 
-/*-------------------------Subscribe-------------------------*/
+/*---------------------------Subscribe---------------------------*/
 
 .sub-background {
-    background-image: url("../../ed-sheeran-singing.jpg");
+    background-image: url("../images/ed-sheeran-singing.jpg");
     background-repeat: no-repeat;
     background-position: top;
     opacity: 0.7;
     height: 55em;
 }
+
 .sub-title {
     position: relative;
     top: 15em;
 }
 
 .sub-head {
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 50px;
     background-color: #2E3EFF;
 }
 
 .sub-para {
+    font-family: 'Varela Round', sans-serif;
     text-align: center;
     font-size: 25px;
     background-color: #6594F1;
@@ -308,16 +286,14 @@ hr {
 .sub-background:hover {
     opacity: 1;
     transition-duration: 2s;
-
 }
-
 
 @media only screen and (max-width: 769px) {
     .sub-title {
         position: relative;
         top: 5em;
     }
-    
+
     .sub-form {
         position: relative;
         top: 4em;
@@ -325,7 +301,7 @@ hr {
 }
 
 
-/*-----------------Subscribe - Second Part -----------------*/
+/*--------------Subscribe - Second Part--------------*/
 
 .sub-card-issue {
     text-align: center;
@@ -334,14 +310,18 @@ hr {
 }
 
 .blue {
+    font-family: 'Kanit', sans-serif;
     color: #2E3EFF;
 }
 
 .lg-blue {
+    font-family: 'Varela Round', sans-serif;
     color: #6594F1;
 }
 
 .sub-card-list {
+    position: relative;
+    right: 1em;
     text-align: center;
     background-color: #343A40;
     margin-top: 5em;
@@ -365,4 +345,30 @@ hr {
     .sub-card-list {
         margin-top: 1em;
     }
+}
+
+/*-------------------------Footer----------------------------*/
+
+footer {
+    text-align: center;
+}
+
+hr {
+    background: #3A3A3A;
+    width: 85%;
+}
+
+.footer-header {
+    font-family: 'Kanit', sans-serif;
+    color: #2E3EFF;
+    margin-top: 1em;
+}
+
+.list-inline {
+    margin-top: 1.5em;
+}
+
+.footer-p {
+    font-family: 'Varela Round', sans-serif;
+    color: #6594F1;
 }
