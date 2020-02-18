@@ -266,21 +266,12 @@ h3 {
     background-color: #6594F1;
 }
 
-/*.sub-form {*/
-/*    width:100%;*/
-/*}*/
-/*form {*/
-/*    width: 100%;*/
-/*    text-align: center;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*}*/
-
 .form {
     padding-top: 1em;
 }
 
 .sub-btn {
+    text-align: center;
     padding-top: 1em;
 }
 
