@@ -2,7 +2,7 @@
 
 Milestone Project 1 - User Frontend Centric
 
-This is a page about everything Ed Sheeran, the website consists of a general info section, Events, Merchandise and Subscribe page. You can find a demo to the website here.
+This is a page about everything Ed Sheeran, the website consists of a general info section, Events, Merchandise and Subscribe page. You can find a demo to the website [here.](https://amit238.github.io/user-frontend-project/)
 
 # UX
 
